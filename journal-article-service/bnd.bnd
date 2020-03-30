@@ -1,0 +1,14 @@
+Bundle-Name: journal-article-service
+Bundle-SymbolicName: com.liferay.rbi.service
+Bundle-Version: 1.0.0
+-includeresource: \
+	@com.liferay.util.bridges-2.0.0.jar!/com/liferay/util/bridges/freemarker/FreeMarkerPortlet.class,\
+	@com.liferay.util.taglib-2.0.0.jar!/META-INF/*.tld,\
+	@pdfbox-tools-2.0.19.jar,\
+	@pdfbox-2.0.19.jar,\
+	@fontbox-2.0.19.jar,\
+	@pdfbox-debugger-2.0.19.jar,\
+	@bcprov-jdk16-1.46.jar,\
+	@junit-4.4.jar,\
+	@bcmail-jdk15-1.46.jar
+-sources: true

@@ -71,8 +71,8 @@ public class JournalConversionModelListener extends BaseModelListener<JournalArt
 		// TODO Auto-generated method stub
 		try
 		{	
- //DDMStructure ddmStructure= ddmStructureLocalService.fetchStructure(model.getGroupId(),classNameLocalService.getClassNameId(JournalArticle.class.getName()),model.getDDMStructureKey());
-			if(model.getTitle().equals("RBI Research Paper"))
+ DDMStructure ddmStructure= ddmStructureLocalService.fetchStructure(model.getGroupId(),classNameLocalService.getClassNameId(JournalArticle.class.getName()),model.getDDMStructureKey());
+			if(ddmStructure.getName().equals("RBI Research Paper"))
 			
 			{
 			

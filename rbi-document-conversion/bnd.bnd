@@ -1,0 +1,13 @@
+Bundle-Name: rbi-document-conversion
+Bundle-SymbolicName: rbi.document.conversion
+Bundle-Version: 1.0.0
+Export-Package: rbi.document.conversion
+
+
+
+
+  
+  -includeresource:\
+  @easyConverterHTML.jar,\
+  @commons-io-2.6.jar
+  

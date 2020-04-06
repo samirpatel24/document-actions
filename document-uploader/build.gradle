@@ -1,0 +1,7 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel", version: "4.0.0"
+	compile group: 'org.apache.tika', name: 'tika-bundle', version: '1.14'
+	compile group: 'org.apache.servicemix.bundles', name: 'org.apache.servicemix.bundles.jsoup', version: '1.5.2_2'
+	compileOnly group: "org.osgi", name: "osgi.cmpn", version: "6.0.0"
+}
+ 

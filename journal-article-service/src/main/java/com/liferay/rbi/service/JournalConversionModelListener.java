@@ -104,6 +104,7 @@ public class JournalConversionModelListener extends BaseModelListener<JournalArt
 		   
 			     model.setContent(htmlElement.getDocument().asXML());
 			
+			     
 					 }	 
 				} 
 				
